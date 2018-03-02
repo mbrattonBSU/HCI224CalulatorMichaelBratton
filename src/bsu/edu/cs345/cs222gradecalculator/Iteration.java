@@ -20,6 +20,7 @@ public class Iteration {
     public void setReflectionQuality(int gradeRecived){
         reflectionQuality = (.10*(this.maxPointsForIteration)) * ((gradeRecived*1.0)/3);
     }
+
     public double calculateIterationGrade(){
         return (codeQuality + processQuality + presentationQuality + reflectionQuality);
     }
